@@ -1,6 +1,6 @@
 // After (React Router v6)
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Nav from './components/nav';
+import Nav from './components/Nav';
 import RegistrationForm from './components/RegistrationForm';
 import Newest from './components/Newest'
 import Col from './components/Collections';
