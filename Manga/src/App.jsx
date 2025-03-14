@@ -4,7 +4,7 @@ import Nav from './components/Nav';
 import RegistrationForm from './components/RegistrationForm';
 import Newest from './components/Newest'
 import Col from './components/Collections';
-import Login from './components/login';
+import Login from './components/Login';
 import Popular from './components/Popular'
 
 
@@ -13,9 +13,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Nav/>} />
-    
                 <Route path="/login" element={<Login/>} />
-                
                 <Route path="/newest" element={<Newest/>} />
                 <Route path="/popular" element={<Popular/>} />
                 <Route path="/col" element={<Col/>} />
